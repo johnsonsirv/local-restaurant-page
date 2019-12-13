@@ -1,7 +1,15 @@
 const foodMenuItems = () => {
   let html = '';
   html = `<div class="food-menu">
-            Our Menu;
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
+            <div class="card">Menu 1</div>
           </div>`;
   return html;
 };

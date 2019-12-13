@@ -2,6 +2,7 @@
 import homePage from './pages/home.js';
 import foodMenu from './pages/foodMenu.js';
 import contactUs from './pages/contact.js';
+import './css/style.css';
 
 const pageController = (mainDiv) => {
   document.getElementById('home')
