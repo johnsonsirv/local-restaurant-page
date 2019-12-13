@@ -14,7 +14,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Ntachi-Osa Restaurant',
+      filename: 'index.html',
+      template: 'src/templates/index.html',
     }),
   ],
   output: {
