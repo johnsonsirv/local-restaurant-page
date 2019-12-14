@@ -6,6 +6,7 @@ module.exports = {
   mode: 'development',
   entry: {
     app: './src/index.js',
+    data: './src/data.js',
   },
   devtool: 'eval-source-map',
   devServer: {
@@ -35,6 +36,12 @@ module.exports = {
         test: /\.(png|jpg|svg|gif)/,
         use: [
           'file-loader',
+        ],
+      },
+      {
+        test: /\.xml$/,
+        use: [
+          'xml-loader',
         ],
       },
     ],

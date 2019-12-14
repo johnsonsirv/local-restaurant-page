@@ -3,15 +3,18 @@ import homePage from './pages/home.js';
 import foodMenu from './pages/foodMenu.js';
 import contactUs from './pages/contact.js';
 import './css/style.css';
+import importAll from './data';
 
 const pageController = (mainDiv) => {
+  const images = importAll(require.context('../src/images/foods/', false, /\.(png|jpg|jpeg)$/));
   document.getElementById('home')
     .addEventListener('click', e => {
       homePage(mainDiv);
     });
   document.getElementById('food-menu')
     .addEventListener('click', e => {
-      foodMenu(mainDiv);
+      console.log(images);
+      foodMenu(mainDiv, images);
     });
   document.getElementById('contact')
     .addEventListener('click', e => {
