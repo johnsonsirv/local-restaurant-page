@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-undef */
 import homePage from './pages/home.js';
 import foodMenu from './pages/foodMenu.js';
@@ -8,16 +9,15 @@ import importAll from './data';
 const pageController = (mainDiv) => {
   const images = importAll(require.context('../src/images/foods/', false, /\.(png|jpg|jpeg)$/));
   document.getElementById('home')
-    .addEventListener('click', e => {
+    .addEventListener('click', () => {
       homePage(mainDiv);
     });
   document.getElementById('food-menu')
-    .addEventListener('click', e => {
-      console.log(images);
+    .addEventListener('click', () => {
       foodMenu(mainDiv, images);
     });
   document.getElementById('contact')
-    .addEventListener('click', e => {
+    .addEventListener('click', () => {
       contactUs(mainDiv);
     });
 };

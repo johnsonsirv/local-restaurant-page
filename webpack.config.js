@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: {
     app: './src/index.js',
     data: './src/data.js',
@@ -16,7 +15,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'src/templates/index.html',
+      template: path.resolve('./src/templates/index.html'),
     }),
   ],
   output: {
