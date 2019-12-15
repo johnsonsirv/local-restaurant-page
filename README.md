@@ -1,8 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9424649-60c1-4860-aeb2-a1dfede32144/deploy-status)](https://app.netlify.com/sites/ntachi-osa/deploys)
 
 # Local Restaurant App (Single Page App)
-This project uses ``Webpack`` to build a SPA. The restaurant app is for popular local restaurant called [Ntachi-Osa]() is local name meaning ``eat enough, prevent ulcer disease`` and displays food menu using an XML-based file data storage. It leverages on ES6 modules to dynamically inject content for each page.
+This project uses ``Webpack`` to build a SPA. The restaurant app is for popular local restaurant called [Ntachi-Osa](https://ntachi-osa.netlify.com/) is local name meaning ``eat enough, prevent ulcer disease`` and displays food menu using an XML-based file data storage. It leverages on ES6 modules to dynamically inject content for each page.
 This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!")
+
+[Visit Ntachi-Osa](https://ntachi-osa.netlify.com/)
 
 ## Technologies
 
