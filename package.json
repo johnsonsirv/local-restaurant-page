@@ -1,0 +1,44 @@
+{
+  "name": "local-restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple restaurant SPA built with JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsonsirv/local-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnsonsirv/local-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/johnsonsirv/local-restaurant-page#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.2",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "xml-loader": "^1.2.1"
+  }
+}
