@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foodlist>
+  <food>
+    <id>1</id>
+    <name>Abacha (African Salad)</name>
+    <description>Garnished African Salad</description>
+    <price>$2</price>
+    <image>abacha.png</image>
+  </food>
+  <food>
+    <id>2</id>
+    <name>Jollof Rice</name>
+    <description>Spicy Jollof rice</description>
+    <price>$1.4</price>
+    <image>jollof.png</image>
+  </food>
+  <food>
+    <id>3</id>
+    <name>Nsala (White Soup)</name>
+    <description>Well prepared for your satisfaction</description>
+    <price>$10</price>
+    <image>nsala.png</image>
+  </food>
+  <food>
+    <id>4</id>
+    <name>Afang Soup</name>
+    <description>Native delicious soup</description>
+    <price>$3</price>
+    <image>afang.png</image>
+  </food>
+  <food>
+    <id>5</id>
+    <name>Egusi (Melon Soup)</name>
+    <description>Relish this soup with semovita, or wheat</description>
+    <price>$3</price>
+    <image>egusi.png</image>
+  </food>
+  <food>
+    <id>6</id>
+    <name>Edikan-gikon Soup</name>
+    <description>Native south-south soup</description>
+    <price>$10</price>
+    <image>edikangikon.png</image>
+  </food>
+  <food>
+    <id>7</id>
+    <name>Onugbu (Bitter Leaf Soup)</name>
+    <description>Native south-east soup</description>
+    <price>$6</price>
+    <image>onugbu.png</image>
+  </food>
+  <food>
+    <id>8</id>
+    <name>Akara (Bean Fritters)</name>
+    <description>tasty chops combined with custard or oat meal</description>
+    <price>$0.8</price>
+    <image>akara.png</image>
+  </food>
+  <food>
+    <id>9</id>
+    <name>Fried Beans Recipe</name>
+    <description>garnished stewed beans meal</description>
+    <price>$1.8</price>
+    <image>ewa.png</image>
+  </food>
+</foodlist>
