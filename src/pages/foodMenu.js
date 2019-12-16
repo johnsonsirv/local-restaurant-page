@@ -3,7 +3,7 @@ import data from '../dataStore/foodlist.xml';
 const foodMenuItems = (images, foodList) => {
   let html = '';
   html = '<div class="food-menu">';
-  foodList.forEach(food => {
+  foodList.forEach((food) => {
     html = `${html}
               <div class="card">
                 <div class="thumbnail"><img src="${images[food.image[0]].default}" alt="${food.name[0]}" title="${food.name[0]}"></div>

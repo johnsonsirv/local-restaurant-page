@@ -25,6 +25,7 @@ $ git clone https://github.com/johnsonsirv/local-restaurant-page.git
 
 ```sh
 $ cd local-restaurant-page
+npm install
 $ npm run build
 ```
 
