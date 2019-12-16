@@ -23,6 +23,6 @@ const pageController = (mainDiv) => {
 };
 
 const mainDiv = document.getElementById('content');
-homePage(mainDiv); // root page
+homePage(mainDiv);
 
 pageController(mainDiv);
