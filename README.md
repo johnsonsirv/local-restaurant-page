@@ -1,4 +1,4 @@
-<h1 align="center">Local Restaurant Single Page App</h1>
+<h1 align="center">Single Page App - Local Restaurant</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/johnsonsirv/local-restaurant-page#readme" target="_blank">
@@ -21,11 +21,13 @@
 
 <br>
 
-This project uses Webpack to build a SPA. The restaurant app is for a popular local restaurant called [Ntachi-Osa](https://ntachi-osa.netlify.com/) - a local name meaning eat enough, prevent ulcer disease.
+This project uses Webpack to build a Singel Page Application. The restaurant app is for a popular local restaurant called [Ntachi-Osa](https://ntachi-osa.netlify.com/) - a local name meaning eat enough, prevent ulcer disease.
 
 It leverages on ES6 modules to dynamically inject content for each page. [See Live URL](https://ntachi-osa.netlify.com/)
 
-It persists food menu items using an XML file data store. This minimal data storage is connected to the app using webpack `xml-loader`, and allows for the different parts of the application to scale independently.
+It persists food menu items using an XML file data store. This minimal data storage is connected to the app using webpack `xml-loader`, and allows for the database part of the application to scale independently.
+
+![](https://github.com/johnsonsirv/local-restaurant-page/blob/master/docs/ntachi-osa-1.png)
 
 ### Built with:
 
@@ -33,7 +35,7 @@ It persists food menu items using an XML file data store. This minimal data stor
 - HTML/CSS
 - Webpack 4
 - XML
-- CD using Netlify
+- CD - Netlify
 
 ### Installation
 
