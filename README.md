@@ -27,7 +27,7 @@ It leverages on ES6 modules to dynamically inject content for each page. [See Li
 
 It persists food menu items using an XML file data store. This minimal data storage is connected to the app using webpack `xml-loader`, and allows for the database part of the application to scale independently.
 
-![](https://github.com/johnsonsirv/local-restaurant-page/blob/master/docs/ntachi-osa-1.png)
+![](https://github.com/johnsonsirv/local-restaurant-page/blob/master/docs/ntachi-osa-1.PNG)
 
 ### Built with:
 
